@@ -955,36 +955,36 @@
 
 			  // Create a new StyledMapType object, passing it the array of styles,
 			  // as well as the name to be displayed on the map type control.
-			  var styledMap = new google.maps.StyledMapType(styles,
-				{name: "Styled Map"});
+			 //  var styledMap = new google.maps.StyledMapType(styles,
+				// {name: "Styled Map"});
 
-				var mapCanvas = document.getElementById('map');
-				var nevada = new google.maps.LatLng(39.2621799, -121.0168816);
-				var mapOptions = {
-				   zoom: 15,
-				   center: nevada,
-				   mapTypeControlOptions: {
-				   mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
-				  },
-				  scrollwheel: false,
-				  disableDefaultUI: true
-				};
-				var map = new google.maps.Map(mapCanvas, mapOptions)
+				// var mapCanvas = document.getElementById('map');
+				// var nevada = new google.maps.LatLng(39.2621799, -121.0168816);
+				// var mapOptions = {
+				//    zoom: 15,
+				//    center: nevada,
+				//    mapTypeControlOptions: {
+				//    mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+				//   },
+				//   scrollwheel: false,
+				//   disableDefaultUI: true
+				// };
+				// var map = new google.maps.Map(mapCanvas, mapOptions)
 
-				//Associate the styled map with the MapTypeId and set it to display.
-				  map.mapTypes.set('map_style', styledMap);
-				  map.setMapTypeId('map_style');
+				// //Associate the styled map with the MapTypeId and set it to display.
+				//   map.mapTypes.set('map_style', styledMap);
+				//   map.setMapTypeId('map_style');
 
-				// To add the marker to the map, use the 'map' property
-				  var image = 'images/icon/map_icon.png';
-				  var marker = new google.maps.Marker({
-					  position: nevada,
-					  map: map,
-					  icon: image
-				  });
-			  }
-			  google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
+				// // To add the marker to the map, use the 'map' property
+				//   var image = 'images/icon/map_icon.png';
+				//   var marker = new google.maps.Marker({
+				// 	  position: nevada,
+				// 	  map: map,
+				// 	  icon: image
+				//   });
+			 //  }
+			  // google.maps.event.addDomListener(window, 'load', initialize);
+   </script>
 
 </body>
 </html>
