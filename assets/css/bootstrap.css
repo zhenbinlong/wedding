@@ -268,7 +268,7 @@ th {
   font-family: 'Glyphicons Halflings';
 
   src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url(http://codepassenger.com/html/wedding/john&jane/assets/fonts/glyphicons-halflings-regular.eot?#iefixx') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url(http://codepassenger.com/html/wedding/john&jane/assets/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregularr') format('svg');
+  /*src: url(http://codepassenger.com/html/wedding/john&jane/assets/fonts/glyphicons-halflings-regular.eot?#iefixx') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url(http://codepassenger.com/html/wedding/john&jane/assets/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregularr') format('svg');*/
 }
 .glyphicon {
   position: relative;

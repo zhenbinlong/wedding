@@ -112,7 +112,7 @@ Greyscale stylesheet will overwrite the default stylesheet
 	border: 1px solid #454545;
 }
 .greyscale .footer-logo {
-    background: url(http://codepassenger.com/html/wedding/john&jane/images/greyscale/greyscale_footer_logo.png) no-repeat center center;
+    /*background: url(http://codepassenger.com/html/wedding/john&jane/images/greyscale/greyscale_footer_logo.png) no-repeat center center;*/
 }
 .greyscale footer a .fa:hover {
 	background-color: #454545;
