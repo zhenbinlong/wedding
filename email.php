@@ -1,6 +1,6 @@
 <?php
-	$infos = $_GET;
-	var_dump(121212213);
+	$infos = $_REQUEST;
+	var_dump($infos);
 
 
 ?>
