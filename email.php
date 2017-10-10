@@ -1,5 +1,5 @@
 <?php
-	$infos = $_POST['numberOfGuest'];
+	$infos = $_GET['numberOfGuest'];
 	var_dump($infos);
 
 
