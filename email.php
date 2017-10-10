@@ -1,6 +1,6 @@
 <?php
-	$infos = $_GET['numberOfGuest'];
-	var_dump($infos);
+	$infos = $_GET;
+	var_dump(121212213);
 
 
 ?>
